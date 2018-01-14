@@ -14,7 +14,7 @@ function addElementToEndOfArray(array, element) {
 };
 
 function destructivelyAddEementToEndOfArray(array, element) {
-  array.push(element);
+  array = array.push(element);
   return array;
 };
 
